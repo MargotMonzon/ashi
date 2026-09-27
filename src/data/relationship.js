@@ -83,7 +83,7 @@ reasons: [
     {
         number: '06',
         title: 'Completamente todo de ti',
-        text: 'Tus ojos, tu sonrisa, tu cabello, tus labios, tu voz, tus manitos, tu forma de abrazarme, tu manera de reírte, tus ocurrencias, tus pequeños gestos, tus enojitos, tu ternura y hasta esas cosas que tú misma dices que no te gustan de ti. Amo todo lo que te hace ser tú. Podría seguir escribiendo cosas aquí y no terminaría nunca.',
+        text: 'Tus ojos, tu sonrisa, tu cabello, tus labios, tu voz, tus manitos, tu forma de abrazarme, tu manera de reírte, tus ocurrencias, tus pequeños gestos, tus enojitos y hasta esas cosas que tú misma dices que no te gustan de ti. Amo todo lo que te hace ser tú. Podría seguir escribiendo cosas aquí y no terminaría nunca.',
     },
 ],
 letter: {
@@ -118,7 +118,7 @@ finalSurprise: {
         'Te dejo un par de cosillas que siento que son nuestras, que con el simple hecho de verlas o escucharlas me hacen pensar en nosotras, y espero que sea mutuo ♡',
 
     finalMessage:
-        'En tu perfume embriagarme el resto de mi vida ♡',
+        'Eres mi rayito de luz en la noche ♡',
 
     date: '12.10.2026',
 
@@ -126,6 +126,9 @@ finalSurprise: {
 
     song: '/music/our-song.mp3',
 
-    songName: 'Te conocí en Japón',
+    songName: 'Amaneceres',
+
+    biasPhoto: '/images/final/jin-goti-ashi.png',
+    biasMessage: 'Hasta tu bias apoya nuestro amor, viste JAJA ♡',
 },
 }

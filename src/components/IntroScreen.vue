@@ -50,7 +50,7 @@ const openGift = () => {
 
             <p class="intro__description">
                 Hice este pequeño lugar pensando en ti,
-                en nosotros y en todas las cosas bonitas
+                en nosotras y en todas las cosas bonitas
                 que todavía nos quedan por vivir.
             </p>
 

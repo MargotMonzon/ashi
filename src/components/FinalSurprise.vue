@@ -233,6 +233,20 @@ onBeforeUnmount(() => {
                     </div>
                 </div>
 
+                <div class="final-surprise__bias">
+                    <span class="final-surprise__bias-eyebrow">
+                        invitado especial xd
+                    </span>
+
+                    <div class="final-surprise__bias-card">
+                        <img :src="relationship.finalSurprise.biasPhoto" alt="Imagen especial" />
+
+                        <p>
+                            {{ relationship.finalSurprise.biasMessage }}
+                        </p>
+                    </div>
+                </div>
+
                 <!-- FRASE FINAL -->
 
                 <div class="final-surprise__ending">
@@ -302,6 +316,63 @@ onBeforeUnmount(() => {
 </template>
 
 <style scoped>
+.final-surprise__bias {
+    margin-top: 55px;
+
+    text-align: center;
+}
+
+.final-surprise__bias-eyebrow {
+    display: inline-block;
+
+    margin-bottom: 18px;
+
+    font-size: 9px;
+    font-weight: 600;
+
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+
+    color: rgba(107, 52, 62, 0.45);
+}
+
+.final-surprise__bias-card {
+    width: 100%;
+    max-width: 320px;
+
+    margin: 0 auto;
+
+    padding: 14px 14px 20px;
+
+    border: 1px solid rgba(169, 74, 90, 0.1);
+    border-radius: 28px 8px 28px 8px;
+
+    background: rgba(255, 255, 255, 0.58);
+
+    box-shadow:
+        0 20px 50px rgba(107, 52, 62, 0.08);
+
+    backdrop-filter: blur(12px);
+}
+
+.final-surprise__bias-card img {
+    width: 100%;
+
+    border-radius: 18px;
+
+    display: block;
+}
+
+.final-surprise__bias-card p {
+    margin-top: 14px;
+
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    font-style: italic;
+
+    color: var(--wine);
+}
+
 .final-surprise {
     position: relative;
 

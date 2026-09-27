@@ -47,12 +47,12 @@ const openLetter = () => {
             </span>
 
             <h2>
-                Hay algo que
-                <span>quiero decirte.</span>
+                Ahora
+                <span>algo chiquito.</span>
             </h2>
 
             <p v-if="!isOpened">
-                Esta sí tienes que abrirla tú.
+                Hazle click.
             </p>
         </div>
 

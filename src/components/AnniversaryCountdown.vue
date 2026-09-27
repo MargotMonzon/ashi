@@ -386,12 +386,14 @@ const monthsTogether = computed(() => {
 }
 
 .countdown__decoration-image--one {
-    top: 10%;
-    right: 4%;
+    top: 95px;
+    right: -28px;
 
-    width: 180px;
+    width: 105px;
 
-    transform: rotate(8deg);
+    opacity: 0.72;
+
+    --rotation: 10deg;
 }
 
 .countdown__decoration-image--two {
