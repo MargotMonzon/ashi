@@ -631,49 +631,78 @@ const isOpen = (index) => {
         margin-bottom: 55px;
     }
 
+    /* UNA SOLA CARD POR FILA */
     .reasons__grid {
-        grid-template-columns:
-            repeat(2,
-                minmax(0, 1fr));
+        grid-template-columns: 1fr;
 
-        gap: 12px;
+        gap: 22px;
+
+        max-width: 360px;
     }
 
+    /* MÁS ALTURA PARA LOS TEXTOS REALES */
     .reason-card {
-        height: 235px;
+        height: 350px;
     }
 
     .reason-card__face {
         padding:
-            22px 16px;
+            32px 26px;
 
         border-radius:
-            6px 28px 6px 28px;
+            8px 34px 8px 34px;
     }
 
+    /* FRENTE */
+
     .reason-card__number {
-        font-size: 56px;
+        font-size: 72px;
     }
 
     .reason-card__heart {
+        font-size: 26px;
+    }
+
+    .reason-card__touch {
+        bottom: 25px;
+
+        font-size: 7px;
+    }
+
+    /* PARTE DE ATRÁS */
+
+    .reason-card__small-heart {
+        margin-bottom: 16px;
+
         font-size: 22px;
     }
 
     .reason-card__back h3 {
-        font-size: 25px;
+        max-width: 280px;
+
+        font-size: 34px;
+
+        line-height: 1;
     }
 
     .reason-card__back p {
-        margin-top: 12px;
+        max-width: 285px;
 
-        font-size: 11px;
+        margin-top: 20px;
 
-        line-height: 1.65;
+        font-size: 14px;
+
+        line-height: 1.75;
     }
 
-    .reason-card__touch,
     .reason-card__close {
+        bottom: 22px;
+
         font-size: 6px;
+    }
+
+    .reasons__ending {
+        margin-top: 60px;
     }
 
     .reasons__decoration--one {
